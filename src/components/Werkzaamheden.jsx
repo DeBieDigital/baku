@@ -1,4 +1,4 @@
-import draaien from "../assets/draaien.webp";
+import draaien2 from "../assets/draaien2.webp";
 import frezen from "../assets/frezen.webp";
 import boren from "../assets/boren.webp";
 import zagen from "../assets/zagen.webp";
@@ -170,7 +170,7 @@ export default function Werkzaamheden() {
             <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
               <img
                 alt="Draaien"
-                src={draaien}
+                src={draaien2}
                 className="bg-gray-100 opacity-90 shadow-xl"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
               />

@@ -175,7 +175,7 @@ export default function OverOns() {
               <img
                 alt=""
                 src={bartzw}
-                className="aspect-[3/2] w-full object-cover transition-all duration-300 ease-in-out filter grayscale hover:grayscale-0"
+                className="aspect-[3/2] w-full object-cover"
                 style={{
                   maxHeight: "400px",
                   objectFit: "cover",

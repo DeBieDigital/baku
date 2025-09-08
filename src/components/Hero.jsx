@@ -72,7 +72,7 @@ export default function Hero() {
             transition
             className="relative flex w-full max-w-xs transform flex-col overflow-y-auto bg-white pb-12 shadow-xl transition duration-300 ease-in-out data-[closed]:-translate-x-full"
           >
-            <div className="flex px-4 pb-2 pt-5">
+            <div className="flex px-8 pb-2 pt-6">
               <button
                 type="button"
                 onClick={() => setMobileMenuOpen(false)}
@@ -83,7 +83,7 @@ export default function Hero() {
               </button>
             </div>
 
-            <div className="space-y-6 border-gray-200 px-4 py-6">
+            <div className="space-y-4 border-gray-200 px-8 py-6">
               {navigation.pages.map((page) => (
                 <div key={page.naam} className="flow-root">
                   <a
@@ -113,7 +113,7 @@ export default function Hero() {
 
           <div className="bg-white">
             <div className="border-b border-gray-200">
-              <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+              <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <div className="flex h-16 items-center justify-between">
                   <div className="hidden lg:flex lg:items-center">
                     <a href="/">
@@ -276,7 +276,7 @@ export default function Hero() {
                   <img
                     src={frezenzw}
                     alt="Metaalbewerking voorbeeld"
-                    className="aspect-[3/2] w-full object-cover transition-all duration-300 ease-in-out filter grayscale hover:grayscale-0"
+                    className="aspect-[3/2] w-full object-cover"
                     style={{
                       maxHeight: "400px",
                       objectFit: "cover",
