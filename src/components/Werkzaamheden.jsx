@@ -173,36 +173,60 @@ export default function Werkzaamheden() {
                 src={draaien2}
                 className="bg-gray-100 opacity-90 shadow-xl"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
+                loading="lazy"
+                decoding="async"
+                width="2174"
+                height="1464"
               />
               <img
                 alt="Frezen"
                 src={frezen}
                 className="bg-gray-100 opacity-90 shadow-xl"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
+                loading="lazy"
+                decoding="async"
+                width="2174"
+                height="1464"
               />
               <img
                 alt="Boren"
                 src={boren}
                 className="bg-gray-100 opacity-90 shadow-xl"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
+                loading="lazy"
+                decoding="async"
+                width="2174"
+                height="1464"
               />
               <img
                 alt="Zagen"
                 src={zagen}
                 className="bg-gray-100 opacity-90 shadow-xl"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
+                loading="lazy"
+                decoding="async"
+                width="2174"
+                height="1464"
               />
               <img
                 alt="Brootsen"
                 src={brootsen}
                 className="bg-gray-100 opacity-90 shadow-xl"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
+                loading="lazy"
+                decoding="async"
+                width="2174"
+                height="1464"
               />
               <img
                 alt="Draad tappen/snijden"
                 src={draad}
                 className="bg-gray-100 opacity-90 shadow-xl"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
+                loading="lazy"
+                decoding="async"
+                width="2174"
+                height="1464"
               />
             </div>
           </div>
@@ -232,6 +256,10 @@ export default function Werkzaamheden() {
                     src={image}
                     alt={`Product ${index + 1}`}
                     className="object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    width="2600"
+                    height="1750"
                   />
                 </div>
               ))}
@@ -255,6 +283,11 @@ export default function Werkzaamheden() {
                     src={image}
                     alt={`Product ${index + 1}`}
                     className="object-cover"
+                    loading="lazy"
+                    decoding="async"
+                    width="2600"
+                    height="1750"
+                    aria-hidden="true"
                   />
                 </div>
               ))}

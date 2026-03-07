@@ -122,8 +122,8 @@ export default function Hero() {
                         alt="BaKu logo"
                         src={headerimage}
                         className="h-8 w-auto"
-                        width="32"
-                        height="32"
+                        width="1920"
+                        height="600"
                         fetchPriority="high"
                       />
                     </a>
@@ -162,8 +162,8 @@ export default function Hero() {
                       alt="BaKu logo"
                       src={headerimage}
                       className="h-8 w-auto"
-                      width="32"
-                      height="32"
+                      width="1920"
+                      height="600"
                       fetchPriority="high"
                     />
                   </a>
@@ -176,6 +176,7 @@ export default function Hero() {
                             href="https://www.facebook.com/bakumetaalbewerking/"
                             className="-m-2 p-2 text-gray-400 lg:text-gray-900 hover:text-gray-500"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <span className="sr-only">Facebook</span>
                             <FacebookLogo
@@ -195,6 +196,7 @@ export default function Hero() {
                             href="https://www.instagram.com/bakumetaalbewerking/"
                             className="-m-2 p-2 text-gray-400 lg:text-gray-900 hover:text-gray-500"
                             target="_blank"
+                            rel="noopener noreferrer"
                           >
                             <span className="sr-only">Instagram</span>
                             <InstagramLogo
@@ -270,7 +272,7 @@ export default function Hero() {
                 <picture>
                   <source
                     srcSet={`${frezenzw} 1200w`}
-                    type="image/png"
+                    type="image/webp"
                     sizes="(max-width: 768px) 100vw, 50vw"
                   />
                   <img
@@ -282,10 +284,9 @@ export default function Hero() {
                       objectFit: "cover",
                       objectPosition: "center",
                     }}
-                    loading="lazy"
-                    width="600"
-                    height="400"
-                    onLoad={(e) => e.target.classList.add("loaded")}
+                    fetchPriority="high"
+                    width="2174"
+                    height="1464"
                   />
                 </picture>
               </div>

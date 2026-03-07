@@ -70,6 +70,10 @@ export default function OverOns() {
               alt=""
               src={werkplaats}
               className="size-full object-cover bg-gray-100 opacity-90 shadow-xl"
+              loading="lazy"
+              decoding="async"
+              width="1688"
+              height="856"
             />
           </div>
           <div className="absolute inset-0 bg-white/65" />
@@ -119,7 +123,7 @@ export default function OverOns() {
               <UnderlinedHeading>Over ons</UnderlinedHeading>
 
               <div ref={aboutTextRef}>
-                <h2
+                <h3
                   className="text-bakublue my-3 text-lg font-medium tracking-tight"
                   style={{
                     opacity: aboutTextInView ? 1 : 0,
@@ -127,7 +131,7 @@ export default function OverOns() {
                   }}
                 >
                   Wie of wat is BaKu metaalbewerking?
-                </h2>
+                </h3>
                 <p
                   className="my-3 text-base text-gray-900 font-light"
                   style={{
@@ -143,7 +147,7 @@ export default function OverOns() {
                   geleverd. Klantgerichtheid en snelle levering staan centraal
                   in ons werk.
                 </p>
-                <h2
+                <h3
                   className="text-bakublue my-3 text-lg font-medium tracking-tight"
                   style={{
                     opacity: aboutTextInView ? 1 : 0,
@@ -152,7 +156,7 @@ export default function OverOns() {
                 >
                   Even voorstellen, Bart van Kuijk, eigenaar van BaKu
                   metaalbewerking
-                </h2>
+                </h3>
                 <p
                   className="my-3 text-base text-gray-900 font-light"
                   style={{
@@ -173,7 +177,7 @@ export default function OverOns() {
             </div>
             <div className="relative overflow-hidden">
               <img
-                alt=""
+                alt="Bart van Kuijk, eigenaar van BaKu metaalbewerking"
                 src={bartzw}
                 className="aspect-[3/2] w-full object-cover"
                 style={{
@@ -181,6 +185,10 @@ export default function OverOns() {
                   objectFit: "cover",
                   objectPosition: "center",
                 }}
+                loading="lazy"
+                decoding="async"
+                width="2174"
+                height="1464"
               />
             </div>
           </div>

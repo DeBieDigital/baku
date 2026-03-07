@@ -7,4 +7,20 @@ export default defineConfig({
   preview: {
     allowedHosts: ["bakumetaalbewerking.nl", "www.bakumetaalbewerking.nl"],
   },
+  build: {
+    target: "esnext",
+    cssCodeSplit: true,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ["react", "react-dom"],
+          ui: [
+            "@headlessui/react",
+            "@heroicons/react",
+            "@phosphor-icons/react",
+          ],
+        },
+      },
+    },
+  },
 });
