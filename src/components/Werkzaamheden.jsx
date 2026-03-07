@@ -123,7 +123,11 @@ export default function Werkzaamheden() {
                 <div
                   style={{
                     opacity: werkzaamhedenIntroInView ? 1 : 0,
-                    transition: "opacity 0.6s ease-in-out 0s",
+                    transform: werkzaamhedenIntroInView
+                      ? "translateY(0)"
+                      : "translateY(20px)",
+                    transition:
+                      "opacity 0.6s ease-out 0s, transform 0.6s ease-out 0s",
                   }}
                 >
                   <UnderlinedHeading>Werkzaamheden</UnderlinedHeading>
@@ -132,7 +136,11 @@ export default function Werkzaamheden() {
                   className="mt-4 text-lg text-gray-900 font-light"
                   style={{
                     opacity: werkzaamhedenIntroInView ? 1 : 0,
-                    transition: "opacity 0.6s ease-in-out 0.1s",
+                    transform: werkzaamhedenIntroInView
+                      ? "translateY(0)"
+                      : "translateY(20px)",
+                    transition:
+                      "opacity 0.6s ease-out 0.1s, transform 0.6s ease-out 0.1s",
                   }}
                 >
                   Wij zijn gespecialiseerd in het draaien en frezen van diverse
@@ -151,10 +159,11 @@ export default function Werkzaamheden() {
                 {werkzaamheden.map((werk, index) => (
                   <div
                     key={werk.naam}
-                    className="border-t border-gray-200 pt-4"
+                    className="border-t border-l-4 border-t-gray-200 border-l-transparent hover:border-l-bakublue transition-colors duration-200 pt-4 pl-4"
                     style={{
                       opacity: inView ? 1 : 0,
-                      transition: `opacity 0.6s ease-in-out ${index * 0.1}s`,
+                      transform: inView ? "translateY(0)" : "translateY(20px)",
+                      transition: `opacity 0.6s ease-out ${index * 0.1}s, transform 0.6s ease-out ${index * 0.1}s`,
                     }}
                   >
                     <dt className="text-bakublue text-lg font-medium tracking-tight">
@@ -167,11 +176,11 @@ export default function Werkzaamheden() {
                 ))}
               </dl>
             </div>
-            <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:gap-6 lg:gap-8">
+            <div className="grid grid-cols-2 grid-rows-3 gap-4 sm:gap-6 lg:gap-8">
               <img
                 alt="Draaien"
                 src={draaien2}
-                className="bg-gray-100 opacity-90 shadow-xl"
+                className="bg-gray-100 opacity-90 shadow-xl rounded-lg"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
                 loading="lazy"
                 decoding="async"
@@ -181,7 +190,7 @@ export default function Werkzaamheden() {
               <img
                 alt="Frezen"
                 src={frezen}
-                className="bg-gray-100 opacity-90 shadow-xl"
+                className="bg-gray-100 opacity-90 shadow-xl rounded-lg"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
                 loading="lazy"
                 decoding="async"
@@ -191,7 +200,7 @@ export default function Werkzaamheden() {
               <img
                 alt="Boren"
                 src={boren}
-                className="bg-gray-100 opacity-90 shadow-xl"
+                className="bg-gray-100 opacity-90 shadow-xl rounded-lg"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
                 loading="lazy"
                 decoding="async"
@@ -201,7 +210,7 @@ export default function Werkzaamheden() {
               <img
                 alt="Zagen"
                 src={zagen}
-                className="bg-gray-100 opacity-90 shadow-xl"
+                className="bg-gray-100 opacity-90 shadow-xl rounded-lg"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
                 loading="lazy"
                 decoding="async"
@@ -211,7 +220,7 @@ export default function Werkzaamheden() {
               <img
                 alt="Brootsen"
                 src={brootsen}
-                className="bg-gray-100 opacity-90 shadow-xl"
+                className="bg-gray-100 opacity-90 shadow-xl rounded-lg"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
                 loading="lazy"
                 decoding="async"
@@ -221,7 +230,7 @@ export default function Werkzaamheden() {
               <img
                 alt="Draad tappen/snijden"
                 src={draad}
-                className="bg-gray-100 opacity-90 shadow-xl"
+                className="bg-gray-100 opacity-90 shadow-xl rounded-lg"
                 style={{ filter: "brightness(0.95) contrast(0.95)" }}
                 loading="lazy"
                 decoding="async"

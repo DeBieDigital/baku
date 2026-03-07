@@ -127,7 +127,11 @@ export default function OverOns() {
                   className="text-bakublue my-3 text-lg font-medium tracking-tight"
                   style={{
                     opacity: aboutTextInView ? 1 : 0,
-                    transition: "opacity 0.6s ease-in-out 0s",
+                    transform: aboutTextInView
+                      ? "translateY(0)"
+                      : "translateY(16px)",
+                    transition:
+                      "opacity 0.6s ease-out 0s, transform 0.6s ease-out 0s",
                   }}
                 >
                   Wie of wat is BaKu metaalbewerking?
@@ -136,7 +140,11 @@ export default function OverOns() {
                   className="my-3 text-base text-gray-900 font-light"
                   style={{
                     opacity: aboutTextInView ? 1 : 0,
-                    transition: "opacity 0.6s ease-in-out 0.1s",
+                    transform: aboutTextInView
+                      ? "translateY(0)"
+                      : "translateY(16px)",
+                    transition:
+                      "opacity 0.6s ease-out 0.1s, transform 0.6s ease-out 0.1s",
                   }}
                 >
                   BaKu Metaalbewerking, opgericht op 1 januari 2022, combineert
@@ -151,7 +159,11 @@ export default function OverOns() {
                   className="text-bakublue my-3 text-lg font-medium tracking-tight"
                   style={{
                     opacity: aboutTextInView ? 1 : 0,
-                    transition: "opacity 0.6s ease-in-out 0.2s",
+                    transform: aboutTextInView
+                      ? "translateY(0)"
+                      : "translateY(16px)",
+                    transition:
+                      "opacity 0.6s ease-out 0.2s, transform 0.6s ease-out 0.2s",
                   }}
                 >
                   Even voorstellen, Bart van Kuijk, eigenaar van BaKu
@@ -161,7 +173,11 @@ export default function OverOns() {
                   className="my-3 text-base text-gray-900 font-light"
                   style={{
                     opacity: aboutTextInView ? 1 : 0,
-                    transition: "opacity 0.6s ease-in-out 0.3s",
+                    transform: aboutTextInView
+                      ? "translateY(0)"
+                      : "translateY(16px)",
+                    transition:
+                      "opacity 0.6s ease-out 0.3s, transform 0.6s ease-out 0.3s",
                   }}
                 >
                   Sinds mijn jeugd heb ik een passie voor techniek. Na de
@@ -175,7 +191,7 @@ export default function OverOns() {
                 </p>
               </div>
             </div>
-            <div className="relative overflow-hidden">
+            <div className="relative overflow-hidden rounded-2xl">
               <img
                 alt="Bart van Kuijk, eigenaar van BaKu metaalbewerking"
                 src={bartzw}

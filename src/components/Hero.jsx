@@ -100,7 +100,7 @@ export default function Hero() {
         </div>
       </Dialog>
 
-      <header className="relative z-10">
+      <header className="sticky top-0 z-30 shadow-sm">
         <nav aria-label="Top">
           <div className="bg-bakublue">
             <div className="mx-auto flex py-2 max-w-7xl items-center justify-center px-4 sm:px-6 lg:px-8">
@@ -269,7 +269,7 @@ export default function Hero() {
                 </div>
 
                 {/* Optimized image with picture element for responsive images */}
-                <picture>
+                <picture className="rounded-xl overflow-hidden block">
                   <source
                     srcSet={`${frezenzw} 1200w`}
                     type="image/webp"
@@ -296,11 +296,15 @@ export default function Hero() {
                 className="mt-16 md:mt-24 lg:mt-32 grid grid-cols-1 gap-x-16 gap-y-10 lg:grid-cols-3 px-6 xl:px-0"
                 style={{
                   opacity: inView ? 1 : 0,
-                  transition: "opacity 1s ease-in-out",
+                  transform: inView ? "translateY(0)" : "translateY(24px)",
+                  transition: "opacity 1s ease-out, transform 1s ease-out",
                 }}
               >
                 {usps.map((usp) => (
-                  <div key={usp.naam} className="sm:flex lg:block">
+                  <div
+                    key={usp.naam}
+                    className="sm:flex lg:block rounded-2xl border border-gray-100 bg-gray-50/60 p-6"
+                  >
                     <div className="sm:shrink-0">
                       {/* Only one instance of the icon */}
                       {usp.imageSrc}

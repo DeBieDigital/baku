@@ -108,7 +108,7 @@ export default function Contact() {
                   autoComplete="name"
                   value={formData.naam}
                   onChange={handleChange}
-                  className="block w-full border border-gray-300 px-4 py-3 placeholder-gray-900 shadow-sm focus:border-bakublue focus:ring-bakublue font-light"
+                  className="block w-full rounded-lg border border-gray-300 px-4 py-3 placeholder-gray-900 shadow-sm focus:border-bakublue focus:ring-bakublue font-light"
                   required
                 />
               </div>
@@ -124,7 +124,7 @@ export default function Contact() {
                   autoComplete="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="block w-full border border-gray-300 px-4 py-3 placeholder-gray-900 shadow-sm focus:border-bakublue focus:ring-bakublue font-light"
+                  className="block w-full rounded-lg border border-gray-300 px-4 py-3 placeholder-gray-900 shadow-sm focus:border-bakublue focus:ring-bakublue font-light"
                   required
                 />
               </div>
@@ -140,7 +140,7 @@ export default function Contact() {
                   autoComplete="tel"
                   value={formData.telefoon}
                   onChange={handleChange}
-                  className="block w-full border border-gray-300 px-4 py-3 placeholder-gray-900 shadow-sm focus:border-bakublue focus:ring-bakublue font-light"
+                  className="block w-full rounded-lg border border-gray-300 px-4 py-3 placeholder-gray-900 shadow-sm focus:border-bakublue focus:ring-bakublue font-light"
                 />
               </div>
               <div>
@@ -154,7 +154,7 @@ export default function Contact() {
                   placeholder="Bericht"
                   value={formData.bericht}
                   onChange={handleChange}
-                  className="block w-full border border-gray-300 px-4 py-3 placeholder-gray-900 shadow-sm focus:border-bakublue focus:ring-bakublue font-light"
+                  className="block w-full rounded-lg border border-gray-300 px-4 py-3 placeholder-gray-900 shadow-sm focus:border-bakublue focus:ring-bakublue font-light"
                   required
                 />
               </div>
