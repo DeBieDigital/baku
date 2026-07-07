@@ -188,7 +188,10 @@ export default function Machinepark() {
               }}
             >
               <div className="aspect-[3/2] w-full overflow-hidden bg-gray-100">
-                <MachineImage src={machine.afbeelding} alt={machine.naam} />
+                <MachineImage
+                  src={machine.afbeelding}
+                  alt={`${machine.naam} bij BaKu metaalbewerking`}
+                />
               </div>
               <div className="flex flex-1 flex-col p-6">
                 <h3 className="text-lg font-medium tracking-tight text-bakublue">

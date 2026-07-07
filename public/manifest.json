@@ -1,5 +1,11 @@
 {
- "name": "App",
+ "name": "BaKu metaalbewerking",
+ "short_name": "BaKu",
+ "description": "Maatwerk in CNC- en conventioneel draaien en frezen bij BaKu metaalbewerking in Helvoirt.",
+ "start_url": "/",
+ "display": "standalone",
+ "background_color": "#ffffff",
+ "theme_color": "#065495",
  "icons": [
   {
    "src": "\/android-icon-36x36.png",

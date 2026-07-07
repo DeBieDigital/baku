@@ -3,13 +3,53 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.bakumetaalbewerking.nl/</loc>
-    <lastmod>2026-03-07</lastmod>
+    <lastmod>2026-07-07</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://www.bakumetaalbewerking.nl/og-image.jpg</image:loc>
       <image:title>BaKu metaalbewerking</image:title>
       <image:caption>Werkplaats van BaKu metaalbewerking</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/bt1500.webp</image:loc>
+      <image:title>Style BT-1500+ CNC-freesbank</image:title>
+      <image:caption>Style BT-1500+ CNC-freesbank in het machinepark van BaKu metaalbewerking</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/cnc.webp</image:loc>
+      <image:title>Style 510 CNC-draaibank</image:title>
+      <image:caption>Style 510 CNC-draaibank in het machinepark van BaKu metaalbewerking</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/freesbank.webp</image:loc>
+      <image:title>Tos FGS 40t Plus freesbank</image:title>
+      <image:caption>Tos FGS 40t Plus freesbank in het machinepark van BaKu metaalbewerking</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/draaibank.webp</image:loc>
+      <image:title>Tarnow TUJ-50M draaibank</image:title>
+      <image:caption>Tarnow TUJ-50M draaibank in het machinepark van BaKu metaalbewerking</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/kolomboor.webp</image:loc>
+      <image:title>WMW BK 25 kolomboormachine</image:title>
+      <image:caption>WMW BK 25 kolomboormachine in het machinepark van BaKu metaalbewerking</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/zaag.webp</image:loc>
+      <image:title>Lintzaag</image:title>
+      <image:caption>Lintzaag in het machinepark van BaKu metaalbewerking</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/taparm.webp</image:loc>
+      <image:title>MW-tech ETA2416 taparm</image:title>
+      <image:caption>MW-tech ETA2416 taparm in het machinepark van BaKu metaalbewerking</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/printer.webp</image:loc>
+      <image:title>Creality Ender 3 V2 3D-printer</image:title>
+      <image:caption>Creality Ender 3 V2 3D-printer in het machinepark van BaKu metaalbewerking</image:caption>
     </image:image>
   </url>
 </urlset>
