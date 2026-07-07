@@ -22,6 +22,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = {
   pages: [
     { naam: "Werkzaamheden", href: "#werkzaamheden" },
+    { naam: "Machinepark", href: "#machinepark" },
     { naam: "Over ons", href: "#over-ons" },
     { naam: "Contact", href: "#contact" },
   ],
@@ -105,8 +106,8 @@ export default function Hero() {
           <div className="bg-bakublue">
             <div className="mx-auto flex py-2 max-w-7xl items-center justify-center px-4 sm:px-6 lg:px-8">
               <p className="flex-1 text-center text-sm font-medium text-white lg:flex-none">
-                Nieuw: CNC Draaibank Style 510! Meer precisie, meer capaciteit –
-                we kunnen nu nog meer werk aan.
+                Nieuw: STYLE BT-1500+ CNC-freesbank! Meer precisie, meer
+                capaciteit, we kunnen nu nog meer werk aan.
               </p>
             </div>
           </div>
