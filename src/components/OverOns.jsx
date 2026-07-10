@@ -73,7 +73,7 @@ export default function OverOns() {
               loading="lazy"
               decoding="async"
               width="1688"
-              height="856"
+              height="1266"
             />
           </div>
           <div className="absolute inset-0 bg-white/65" />

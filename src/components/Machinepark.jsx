@@ -12,10 +12,6 @@ const machines = [
       { label: "Y-as", waarde: "650 mm" },
       { label: "Z-as", waarde: "700 mm" },
       { label: "Tafelafmeting", waarde: "1850 x 610 mm" },
-      { label: "Max. tafelbelasting", waarde: "1000 kg" },
-      { label: "Spindelopname", waarde: "BT 40 (SK/DIN 69871)" },
-      { label: "Spindeltoerental", waarde: "6000 - 12000 rpm" },
-      { label: "Gereedschapswisselaar", waarde: "24 posities" },
     ],
   },
   {
@@ -25,78 +21,7 @@ const machines = [
       { label: "X-as", waarde: "1300 mm" },
       { label: "Z-as", waarde: "400 mm" },
       { label: "Tussen de centers", waarde: "1350 mm" },
-      { label: "Draaibare diameter boven het bed", waarde: "510 mm" },
-      { label: "Werkstuk tussen de centers", waarde: "600 kg" },
       { label: "Spindelgat", waarde: "80 mm" },
-    ],
-  },
-  {
-    naam: "Freesbank: Tos FGS 40t Plus",
-    afbeelding: "/machines/freesbank.webp",
-    specs: [
-      { label: "Bouwjaar", waarde: "2002" },
-      { label: "X-as", waarde: "1000 mm" },
-      { label: "Y-as", waarde: "450 mm" },
-      { label: "Z-as", waarde: "450 mm" },
-      { label: "Tafelafmeting", waarde: "400 x 1400 mm" },
-      { label: "Gewicht op bed", waarde: "800 kg" },
-    ],
-  },
-  {
-    naam: "Draaibank: Tarnow TUJ-50M",
-    afbeelding: "/machines/draaibank.webp",
-    specs: [
-      { label: "Bouwjaar", waarde: "1992" },
-      { label: "X-as", waarde: "1500 mm" },
-      { label: "Z-as", waarde: "450 mm" },
-      { label: "Tussen de centers", waarde: "1400 mm" },
-      { label: "Draaibare diameter boven het bed", waarde: "560 mm" },
-      { label: "Werkstukgewicht tussen de centers", waarde: "300 kg" },
-      { label: "Spindelgat", waarde: "90 mm" },
-      { label: "Draaibare diameter zonder bed", waarde: "800 mm" },
-    ],
-  },
-  {
-    naam: "Kolomboormachine: WMW BK 25",
-    afbeelding: "/machines/kolomboor.webp",
-    specs: [
-      { label: "Bouwjaar", waarde: "1976" },
-      { label: "Boorcapaciteit in staal", waarde: "40 mm" },
-      { label: "Boorslag", waarde: "220 mm" },
-      { label: "Afmeting tafel", waarde: "530 x 420 mm" },
-      { label: "Verstelling van de kop", waarde: "280 mm" },
-    ],
-  },
-  {
-    naam: "Lintzaag",
-    afbeelding: "/machines/zaag.webp",
-    specs: [
-      { label: "Zaagbladlengte", waarde: "3660 x 27 x 1 mm" },
-      { label: "Zaagdoorsnede", waarde: "250 x 250 mm" },
-    ],
-  },
-  {
-    naam: "Taparm: MW-tech ETA2416",
-    afbeelding: "/machines/taparm.webp",
-    specs: [
-      { label: "Bouwjaar", waarde: "2022" },
-      { label: "Lengte", waarde: "1600 mm" },
-      { label: "Opname", waarde: "M6 - M24" },
-    ],
-  },
-  {
-    naam: "3D-printer: Creality 3D Ender 3 V2",
-    afbeelding: "/machines/printer.webp",
-    specs: [
-      { label: "Bouwjaar", waarde: "2021" },
-      { label: "X-as", waarde: "220 mm" },
-      { label: "Y-as", waarde: "220 mm" },
-      { label: "Z-as", waarde: "250 mm" },
-      { label: "Printvolume", waarde: "12 liter" },
-      { label: "Diameter filament", waarde: "1.75 mm" },
-      { label: "Nozzlemaat", waarde: "0,3 - 0,8 mm" },
-      { label: "Bedtemperatuur", waarde: "0 - 100 °C" },
-      { label: "Nozzletemperatuur", waarde: "0 - 250 °C" },
     ],
   },
 ];
@@ -166,10 +91,8 @@ export default function Machinepark() {
             }}
           >
             Om maatwerk van hoog niveau te leveren, beschikken wij over een
-            uitgebreid en modern machinepark. Van onze Style BT-1500+
-            CNC-freesbank en Style 510 CNC-draaibank tot conventionele frees-,
-            boor- en zaagmachines: hieronder vind je een overzicht van de
-            machines waarmee wij jouw opdracht tot in de puntjes uitvoeren.
+            modern machinepark. Met onze Style BT-1500+ CNC-freesbank en Style
+            510 CNC-draaibank voeren wij jouw opdracht tot in de puntjes uit.
           </p>
         </div>
 
