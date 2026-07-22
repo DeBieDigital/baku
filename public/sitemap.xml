@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.bakumetaalbewerking.nl/</loc>
-    <lastmod>2026-07-07</lastmod>
+    <lastmod>2026-07-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -50,6 +50,68 @@
       <image:loc>https://www.bakumetaalbewerking.nl/machines/printer.webp</image:loc>
       <image:title>Creality Ender 3 V2 3D-printer</image:title>
       <image:caption>Creality Ender 3 V2 3D-printer in het machinepark van BaKu metaalbewerking</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.bakumetaalbewerking.nl/diensten/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.bakumetaalbewerking.nl/diensten/cnc-draaien/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/cnc.webp</image:loc>
+      <image:title>Style 510 CNC-draaibank</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.bakumetaalbewerking.nl/diensten/frezen/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/bt1500.webp</image:loc>
+      <image:title>Style BT-1500+ CNC-freesbank</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.bakumetaalbewerking.nl/diensten/boren/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/kolomboor.webp</image:loc>
+      <image:title>WMW BK 25 kolomboormachine</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.bakumetaalbewerking.nl/diensten/zagen/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/zaag.webp</image:loc>
+      <image:title>Lintzaag</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.bakumetaalbewerking.nl/diensten/brootsen/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.bakumetaalbewerking.nl/diensten/draad-tappen-en-snijden/</loc>
+    <lastmod>2026-07-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.bakumetaalbewerking.nl/machines/taparm.webp</image:loc>
+      <image:title>MW-tech ETA2416 taparm</image:title>
     </image:image>
   </url>
 </urlset>

@@ -21,31 +21,37 @@ import { useInView } from "react-intersection-observer";
 const werkzaamheden = [
   {
     naam: "Draaien",
+    href: "/diensten/cnc-draaien/",
     beschrijving:
       "Dankzij onze moderne CNC-draaibank kunnen wij een breed scala aan onderdelen produceren, van enkelstuks tot kleine series, met hoge precisie..",
   },
   {
     naam: "Frezen",
+    href: "/diensten/frezen/",
     beschrijving:
       "Met onze robuuste conventionele freesbank kunnen wij diverse bewerkingen uitvoeren, zoals het frezen van spiebanen en het nauwkeurig boren van gaten op steekmaten.",
   },
   {
     naam: "Boren",
+    href: "/diensten/boren/",
     beschrijving:
       "Boren tot Ø40 mm is mogelijk met onze krachtige kolomboormachine. Daarnaast kunnen wij ook nauwkeurig boren met onze CNC-draaibank en freesbank.",
   },
   {
     naam: "Zagen",
+    href: "/diensten/zagen/",
     beschrijving:
       "Met onze lintzaag kunnen wij materialen zagen tot zeer grote afmetingen, met hoge nauwkeurigheid en efficiëntie.",
   },
   {
     naam: "Brootsen",
+    href: "/diensten/brootsen/",
     beschrijving:
       "Wij brootsen met behulp van een hydraulische en elektrische pers, geschikt voor alle gangbare maten en toepassingen.",
   },
   {
     naam: "Draad tappen/snijden",
+    href: "/diensten/draad-tappen-en-snijden/",
     beschrijving:
       "Draad tappen doen wij met een elektrische taparm tot M24. Daarnaast snijden wij zowel inwendige als uitwendige draad met onze CNC-draaibank.",
   },
@@ -167,14 +173,30 @@ export default function Werkzaamheden() {
                     }}
                   >
                     <dt className="text-bakublue text-lg font-medium tracking-tight">
-                      {werk.naam}
+                      <a href={werk.href} className="hover:underline">
+                        {werk.naam}
+                      </a>
                     </dt>
                     <dd className="mt-2 text-base text-gray-900 font-light">
-                      {werk.beschrijving}
+                      {werk.beschrijving}{" "}
+                      <a
+                        href={werk.href}
+                        className="whitespace-nowrap text-bakublue hover:underline"
+                      >
+                        Lees meer
+                      </a>
                     </dd>
                   </div>
                 ))}
               </dl>
+              <p className="mt-10">
+                <a
+                  href="/diensten/"
+                  className="text-bakublue font-medium hover:underline"
+                >
+                  Bekijk alle diensten →
+                </a>
+              </p>
             </div>
             <div className="grid grid-cols-2 grid-rows-3 gap-4 sm:gap-6 lg:gap-8">
               <img

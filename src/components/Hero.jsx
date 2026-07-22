@@ -22,6 +22,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = {
   pages: [
     { naam: "Werkzaamheden", href: "#werkzaamheden" },
+    { naam: "Diensten", href: "/diensten/" },
     { naam: "Machinepark", href: "#machinepark" },
     { naam: "Over ons", href: "#over-ons" },
     { naam: "Contact", href: "#contact" },
