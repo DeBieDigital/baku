@@ -75,16 +75,16 @@ export const diensten = [
   {
     slug: "frezen",
     naam: "Frezen",
-    kop: "CNC frezen en conventioneel freeswerk",
+    kop: "CNC frezen met precisie en capaciteit",
     kaartTekst:
-      "CNC-frezen op de Style BT-1500+ en conventioneel freeswerk op de Tos FGS 40t Plus, zoals spiebanen en gaten op steekmaten.",
+      "CNC-frezen op de Style BT-1500+ freesbank: spiebanen, vlakken en gaten op steekmaten, van enkelstuk tot kleine serie.",
     heroImage: frezen,
     heroAlt: "Freeswerk bij BaKu metaalbewerking in Helvoirt",
     intro: [
-      "Met onze Style BT-1500+ CNC-freesbank frezen we nauwkeurig en met veel capaciteit: een X-as van 1500 mm en een tafel van 1850 x 610 mm bieden ruimte aan flinke werkstukken. Voor klassiek handwerk staat daarnaast de robuuste Tos FGS 40t Plus freesbank klaar.",
+      "Met onze Style BT-1500+ CNC-freesbank frezen we nauwkeurig en met veel capaciteit: een X-as van 1500 mm en een tafel van 1850 x 610 mm bieden ruimte aan flinke werkstukken.",
       "Denk aan het frezen van spiebanen, het vlakken van oppervlakken, het nauwkeurig boren van gaten op steekmaten en het passend maken van onderdelen. In staal, rvs, aluminium en andere metalen, als enkelstuk of kleine serie.",
     ],
-    machinesTitel: "Onze freesbanken",
+    machinesTitel: "Onze freesbank",
     machines: [
       {
         naam: "Style BT-1500+ CNC-freesbank",
@@ -97,25 +97,18 @@ export const diensten = [
         ],
       },
       {
-        naam: "Tos FGS 40t Plus freesbank",
-        afbeelding: "/machines/freesbank.webp",
-        tekst:
-          "Onze conventionele freesbank voor spiebanen, reparaties en freeswerk waar de handen van de vakman het verschil maken.",
-      },
-    ],
-    secties: [
-      {
-        titel: "CNC of conventioneel?",
+        naam: "Van tekening tot onderdeel",
         tekst: (
           <>
-            Voor series en complexe vormen is CNC-frezen de beste keuze:
-            herhaalbaar, nauwkeurig en efficiënt. Voor een enkel passtuk of een
-            snelle aanpassing is de conventionele bank vaak sneller en
-            voordeliger. We adviseren eerlijk wat voor jouw opdracht het beste
-            werkt.
+            We programmeren en frezen op basis van jouw tekening, schets of een
+            aangeleverd voorbeeld. CNC-frezen is herhaalbaar en nauwkeurig, dus
+            ook voor een kleine serie ben je verzekerd van identieke
+            onderdelen.
           </>
         ),
       },
+    ],
+    secties: [
       {
         titel: "Combinatie met andere bewerkingen",
         tekst: (
