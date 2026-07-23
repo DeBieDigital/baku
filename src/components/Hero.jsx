@@ -82,10 +82,11 @@ export default function Hero() {
                     in draaien en frezen van metaal.
                   </h1>
                   <p className="mt-4 text-lg text-gray-900 font-light">
-                    Met onze Style 510 CNC-draaibank leveren we precisiewerk van
-                    hoog niveau. Daarnaast zijn we gespecialiseerd in
-                    conventioneel draaien, frezen, zagen, boren, brootsen en
-                    persen van diverse materialen. Geen uitdaging is te groot.
+                    Met onze Style 510 CNC-draaibank en Style BT-1500+
+                    CNC-freesbank leveren we precisiewerk van hoog niveau.
+                    Daarnaast zijn we gespecialiseerd in conventioneel draaien,
+                    zagen, boren, brootsen en persen van diverse materialen.
+                    Geen uitdaging is te groot.
                   </p>
                 </div>
 

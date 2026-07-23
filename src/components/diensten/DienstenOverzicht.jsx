@@ -1,6 +1,7 @@
 import Header from "../Header";
 import Footer from "../Footer";
 import UnderlinedHeading from "../ui/UnderlinedHeading";
+import DienstKaart from "./DienstKaart";
 import { ContactCta } from "./DienstPagina";
 import { diensten } from "./dienstenData";
 
@@ -37,21 +38,7 @@ export default function DienstenOverzicht() {
 
           <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {diensten.map((dienst) => (
-              <a
-                key={dienst.slug}
-                href={`/diensten/${dienst.slug}/`}
-                className="group flex flex-col rounded-2xl border border-gray-100 bg-gray-50/60 p-6 shadow-sm transition-colors duration-200 hover:border-bakublue"
-              >
-                <h2 className="text-lg font-medium tracking-tight text-bakublue">
-                  {dienst.naam}
-                </h2>
-                <p className="mt-2 flex-1 text-base text-gray-900 font-light">
-                  {dienst.kaartTekst}
-                </p>
-                <span className="mt-4 inline-block text-sm font-medium text-bakublue group-hover:underline">
-                  Lees meer
-                </span>
-              </a>
+              <DienstKaart key={dienst.slug} dienst={dienst} />
             ))}
           </div>
 

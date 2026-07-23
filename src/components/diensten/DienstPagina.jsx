@@ -111,6 +111,16 @@ export function ContactCta({ titel, tekst }) {
           </span>
         </DiagonalButton>
       </div>
+      <p className="mt-4 text-base text-gray-900 font-light">
+        Liever schriftelijk? Gebruik het{" "}
+        <a
+          href="/#contact"
+          className="font-medium text-bakublue hover:underline"
+        >
+          contactformulier
+        </a>
+        .
+      </p>
     </section>
   );
 }
