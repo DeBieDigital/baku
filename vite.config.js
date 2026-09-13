@@ -8,9 +8,6 @@ const root = dirname(fileURLToPath(import.meta.url));
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  preview: {
-    allowedHosts: ["bakumetaalbewerking.nl", "www.bakumetaalbewerking.nl"],
-  },
   build: {
     target: "esnext",
     cssCodeSplit: true,
